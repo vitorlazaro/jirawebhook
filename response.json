@@ -1,0 +1,211 @@
+{
+    "timestamp": 1684373748110,
+    "webhookEvent": "jira:issue_updated",
+    "issue_event_type_name": "issue_generic",
+    "user": {
+        "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/user?accountId=6290c2a41e4f4b00681e19a7",
+        "accountId": "6290c2a41e4f4b00681e19a7",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+            "24x24": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+            "16x16": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+            "32x32": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png"
+        },
+        "displayName": "VITOR LAZARO DA SILVA",
+        "active": true,
+        "timeZone": "America/Sao_Paulo",
+        "accountType": "atlassian"
+    },
+    "issue": {
+        "id": "10000",
+        "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/10000",
+        "key": "CASA-1",
+        "fields": {
+            "statuscategorychangedate": "2023-05-17T22:35:48.093-0300",
+            "issuetype": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/issuetype/10001",
+                "id": "10001",
+                "description": "Stories track functionality or features expressed as user goals.",
+                "iconUrl": "https://jira-estudos-vitor.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                "name": "Story",
+                "subtask": false,
+                "avatarId": 10315,
+                "entityId": "dd77464e-4d38-4131-924f-b5bca3d9b773",
+                "hierarchyLevel": 0
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/project/10000",
+                "id": "10000",
+                "key": "CASA",
+                "name": "Casa",
+                "projectTypeKey": "software",
+                "simplified": true,
+                "avatarUrls": {
+                    "48x48": "https://jira-estudos-vitor.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10411",
+                    "24x24": "https://jira-estudos-vitor.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10411?size=small",
+                    "16x16": "https://jira-estudos-vitor.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10411?size=xsmall",
+                    "32x32": "https://jira-estudos-vitor.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10411?size=medium"
+                }
+            },
+            "fixVersions": [],
+            "aggregatetimespent": null,
+            "resolution": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/resolution/10000",
+                "id": "10000",
+                "description": "Work has been completed on this issue.",
+                "name": "Done"
+            },
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": "2023-05-17T22:35:48.086-0300",
+            "workratio": -1,
+            "issuerestriction": {
+                "issuerestrictions": {},
+                "shouldDisplay": true
+            },
+            "lastViewed": "2023-05-17T22:32:27.480-0300",
+            "watches": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/issue/CASA-1/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "created": "2023-05-17T22:29:08.912-0300",
+            "customfield_10020": null,
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "customfield_10023": null,
+            "priority": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/priority/3",
+                "iconUrl": "https://jira-estudos-vitor.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "customfield_10024": null,
+            "customfield_10025": "10000_*:*_3_*:*_245781_*|*_10002_*:*_3_*:*_153417",
+            "customfield_10026": null,
+            "labels": [],
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "O link pai s\u00f3 est\u00e1 dispon\u00edvel para usu\u00e1rios do Jira Premium."
+                }
+            },
+            "customfield_10019": "0|hzzzzz:",
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [],
+            "assignee": null,
+            "updated": "2023-05-17T22:35:48.092-0300",
+            "status": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/status/10002",
+                "description": "",
+                "iconUrl": "https://jira-estudos-vitor.atlassian.net/",
+                "name": "Done",
+                "id": "10002",
+                "statusCategory": {
+                    "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/statuscategory/3",
+                    "id": 3,
+                    "key": "done",
+                    "colorName": "green",
+                    "name": "Complete"
+                }
+            },
+            "components": [],
+            "timeoriginalestimate": null,
+            "description": null,
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "timetracking": {},
+            "customfield_10015": null,
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "security": null,
+            "customfield_10007": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "aggregatetimeestimate": null,
+            "attachment": [],
+            "summary": "SASD",
+            "creator": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/user?accountId=6290c2a41e4f4b00681e19a7",
+                "accountId": "6290c2a41e4f4b00681e19a7",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "24x24": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "16x16": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "32x32": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png"
+                },
+                "displayName": "VITOR LAZARO DA SILVA",
+                "active": true,
+                "timeZone": "America/Sao_Paulo",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "reporter": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/user?accountId=6290c2a41e4f4b00681e19a7",
+                "accountId": "6290c2a41e4f4b00681e19a7",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "24x24": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "16x16": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png",
+                    "32x32": "https://secure.gravatar.com/avatar/ecb1b1b83d36da041260864348b593f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FVS-4.png"
+                },
+                "displayName": "VITOR LAZARO DA SILVA",
+                "active": true,
+                "timeZone": "America/Sao_Paulo",
+                "accountType": "atlassian"
+            },
+            "customfield_10000": "{}",
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10001": null,
+            "customfield_10002": null,
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://jira-estudos-vitor.atlassian.net/rest/api/2/issue/CASA-1/votes",
+                "votes": 0,
+                "hasVoted": false
+            }
+        }
+    },
+    "changelog": {
+        "id": "10005",
+        "items": [
+            {
+                "field": "resolution",
+                "fieldtype": "jira",
+                "fieldId": "resolution",
+                "from": null,
+                "fromString": null,
+                "to": "10000",
+                "toString": "Done"
+            },
+            {
+                "field": "status",
+                "fieldtype": "jira",
+                "fieldId": "status",
+                "from": "10000",
+                "fromString": "To Do",
+                "to": "10002",
+                "toString": "Done"
+            }
+        ]
+    }
+}
